@@ -46,5 +46,9 @@ module Joint
         end
       EOC
     end
+
+    def set_joint_collection(name)
+      self.joint_collection_name = name.to_s
+    end    
   end
 end
