@@ -10,7 +10,7 @@ module Joint
     class_attribute :attachment_names, :joint_collection_name
     self.attachment_names = Set.new
     include attachment_accessor_module
-    model.joint_collection_name = 'fs'
+    self.joint_collection_name = 'fs'
   end
 
 private
